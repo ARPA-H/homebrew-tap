@@ -3,12 +3,12 @@
 class Jcc < Formula
   desc "jcc (Jira Cloud Copilot) — terminal UI for Jira workflows: standup, tickets, dates, and activity"
   homepage "https://github.com/ARPA-H/jira-copilot"
-  version "0.0.111"
+  version "0.0.112"
   license "MIT"
 
   on_arm do
-    url "https://github.com/ARPA-H/homebrew-tap/releases/download/jcc%2F0.0.111/jcc-0.0.111-aarch64-apple-darwin.tar.gz"
-    sha256 "0585236306edee236e24411bac587aabb253e95d3ae8c78624ac3feaded936ee"
+    url "https://github.com/ARPA-H/homebrew-tap/releases/download/jcc%2F0.0.112/jcc-0.0.112-aarch64-apple-darwin.tar.gz"
+    sha256 "0bf3b8e442c2c72cc15c1ac57227ed495023cda5f45c01be7a16db2f9e8ea49b"
   end
 
   def install
